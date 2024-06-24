@@ -1,0 +1,62 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi cristianoronaldo",
+            "say hi",
+            "hi",
+            "say curiosidades cristianoronaldo",
+            "say cristianoronaldo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "FrasesIntent",
+          "samples": [
+            "tell me a curious fact about Cristiano Ronaldo",
+            "tell me about Cristiano Ronaldo",
+            "give me a fun fact about Cristiano Ronaldo"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ExitIntent",
+          "samples": [
+            "go out",
+            "bye bye",
+            "finish",
+            "finish"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "curiosities cristianoronaldo"
+    }
+  }
+}

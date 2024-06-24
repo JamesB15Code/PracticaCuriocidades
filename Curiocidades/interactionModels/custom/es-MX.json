@@ -1,0 +1,61 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estas",
+            "di curiosidades cristianoronaldo ",
+            "di cristianoronaldo",
+            "dime curiosidades cristianoronaldo",
+            "dime cristianoronaldo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "FrasesIntent",
+          "samples": [
+            "dime un dato curioso sobre cristiano ronaldo",
+            "cuentame sobre cristiano ronaldo",
+            "dame un dato curioso sobre cristiano ronaldo"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ExitIntent",
+          "samples": [
+            "salir",
+            "adiós",
+            "terminar",
+            "finalizar"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "curiosidades cristianoronaldo"
+    }
+  }
+}
